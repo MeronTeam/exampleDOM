@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+:root {
+	--primary-color: #005377;
+	--seconddary-color: #d5c67a;
+}
+
+body {
+	font-family: 'JetBrains Mono', monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+nav {
+	position: fixed !important;
+	width: 100%;
+	background-color: var(--primary-color);
+}
+
+.navbar-toggler {
+	border: 2px solid var(--seconddary-color) !important;
+	background-color: var(--seconddary-color) !important;
+}
+
+.navbar-brand img {
+	width: 70px;
+}
+
+.nav-link {
+	font-size: 18px;
+	color: #fff !important;
+	transition: 0.2s ease-out;
+}
+
+.nav-link:hover {
+	color: var(--seconddary-color) !important;
+}
+
+.home {
+	height: 100vh;
+	background-color: var(--primary-color);
+	padding: 10rem 2rem 0 2rem;
+}
