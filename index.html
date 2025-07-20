@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
 		align-items: center;
 		height: 100vh;
 	}
+
 	input {
 		padding: 10px;
 		border: 0;
@@ -19,6 +21,7 @@
 		border-radius: 10px;
 		color: #fff;
 	}
+
 	input::placeholder {
 		color: black;
 	}
@@ -26,13 +29,30 @@
 	.errors {
 		color: red;
 	}
+
+	button {
+		width: 190px;
+		padding: 10px;
+		border-radius: 10px;
+		border: 0;
+		background-color: blueviolet;
+		color: #fff;
+		transition: .4s ease;
+	}
+
+	button:hover {
+		cursor: pointer;
+		color: black;
+		background-color: cyan;
+	}
 </style>
+
 <body>
-	
+
 	<form>
 		<label for="input">Ismingizni kiriting!</label> <br>
 		<input type="text" placeholder="Shohjahon" id="name"> <br>
-		<label class="nameError1 errors"></label> 
+		<label class="nameError1 errors"></label>
 		<span id="br"></span>
 		<label class="nameError2 errors"></label>
 		<br>
@@ -48,4 +68,5 @@
 	</form>
 	<script src="index.js"></script>
 </body>
+
 </html>
