@@ -42,7 +42,7 @@ function myFunc() {
 	}
 
 	if (!familyNames.includes(username) && !usernameTest) {
-		addBr.innerHTML = '<br> <br>'
+		addBr.innerHTML = '<br>'
 	}
 
 	if (!passwordTest) {
@@ -54,7 +54,7 @@ function myFunc() {
 	}
 
 	if (!passwordTest && password !== correctPassword) {
-		addBr2.innerHTML = '<br> <br>'
+		addBr2.innerHTML = '<br>'
 	}
 
 	if (
