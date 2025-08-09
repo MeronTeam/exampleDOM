@@ -88,3 +88,42 @@ nav {
 	/* background-color: red; */
 	width: 60%;
 }
+
+@media (max-width:600px) {
+	nav {
+		z-index: 1;
+	}
+	body {
+		overflow-x: hidden;
+	}
+
+	.home-p {
+		left: -20px;
+	}
+
+	.home {
+		height: 130vh;
+		/* padding-top: 10rem; */
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.intro-photos {
+		justify-content: space-between;
+		padding: 0;
+		position: relative;
+		left: -80px;
+		/* background-color: red; */
+		width: 100%;
+	}
+
+	.home-images {
+		width: 200px;
+		/* height: 10px; */
+	}
+
+	.rd-image {
+		width: 200px;
+		height: 450px;
+	}
+}
