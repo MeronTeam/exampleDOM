@@ -7,6 +7,7 @@ html {
 :root {
 	--primary-color: #005377;
 	--seconddary-color: #d5c67a;
+	--white: #fff;
 }
 
 body {
@@ -22,6 +23,10 @@ nav {
 	background-color: var(--primary-color);
 }
 
+.highlighted {
+	color: var(--seconddary-color);
+}
+
 .navbar-toggler {
 	border: 2px solid var(--seconddary-color) !important;
 	background-color: var(--seconddary-color) !important;
@@ -33,7 +38,7 @@ nav {
 
 .nav-link {
 	font-size: 18px;
-	color: #fff !important;
+	color: var(--white) !important;
 	transition: 0.2s ease-out;
 }
 
@@ -42,7 +47,44 @@ nav {
 }
 
 .home {
+	display: flex;
+	justify-content: space-between;
 	height: 100vh;
 	background-color: var(--primary-color);
-	padding: 10rem 2rem 0 2rem;
+	padding: 9rem 0	 0 4rem;
+	color: var(--white);
+	transition: .3s ease-in;
+}
+
+.home-h1 {
+	font-size: 4.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.home-p {
+	font-size: 1.1rem;
+}
+
+.home-images {
+	width: 400px;
+	height: 220px;
+	margin-bottom: 10px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.rd-image {
+	width: 350px;
+	height: 100%;
+	border-radius: 10px;
+	margin-right: 1rem;
+}
+
+.intro-photos {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 0 7rem;
+	height: 90%;
+	/* background-color: red; */
+	width: 60%;
 }

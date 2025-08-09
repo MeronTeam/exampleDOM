@@ -63,6 +63,6 @@ function myFunc() {
 		passwordTest &&
 		password == correctPassword
 	) {
-		location.replace('./a/mainpage.html')
+		location.replace('./pages/mainpage.html')
 	}
 }
